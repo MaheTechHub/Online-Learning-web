@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/images/book.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login/Register</title>
+  <link rel="stylesheet" href="/css/register.css">
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- fonts link  -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- navbar  -->
+  <section>
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo"><a href="/html/index.html">Edulearn</a></div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/aboutUS.html">About</a></li>
+          <li><a href="/html/courses.html">Courses</a></li>
+          <li><a href="/html/instrctor.html">Instructor</a></li>
+          <li><a href="/html/contectUS.html">Contact</a></li>
+          <li><a href="/html/register.html">login/register</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- form section  -->
+  <section class="form-section" id="emailForm">
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login Form</div>
+        <div class="title signup">Register Form</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Register</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" required id="email" placeholder="Email Address">
+            </div>
+            <div class="field">
+              <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login" onclick="login()">
+            </div>
+            <div class="signup-link">Not a member? <a href="">Register now</a></div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" id="emailUSER" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+              <input type="password" id="passwordUSER" placeholder="Password" required>
+            </div>
+            <div class="field">
+              <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Signup" onclick="register()">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section  -->
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-slack"></i>
+          <span class="logo_name">Edulearn</span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/register.html">Contact us</a></li>
+          <li><a href="/html/aboutUS.html">About us</a></li>
+          <li><a href="/html/courses.html">courses</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Category</li>
+          <li><a href="/html/busniess.html">Busniess & management</a></li>
+          <li><a href="/html/dataScience.html">Data Science</a></li>
+          <li><a href="/html/digitalM.html">Digital Marketing</a></li>
+          <li><a href="/html/webD.html">Web Development</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Account</li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Prefrences</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email" id="Subscribe"></li>
+          <li><input type="button" value="Subscribe" onclick="sub()"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &#169; 2024 <a href="#">Edulearn.</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<script>
+
+  const loginText = document.querySelector(".title-text .login");
+  const loginForm = document.querySelector("form.login");
+  const loginBtn = document.querySelector("label.login");
+  const signupBtn = document.querySelector("label.signup");
+  const signupLink = document.querySelector("form .signup-link a");
+  signupBtn.onclick = (() => {
+    loginForm.style.marginLeft = "-50%";
+    loginText.style.marginLeft = "-50%";
+  });
+  loginBtn.onclick = (() => {
+    loginForm.style.marginLeft = "0%";
+    loginText.style.marginLeft = "0%";
+  });
+  signupLink.onclick = (() => {
+    signupBtn.click();
+    return false;
+  });
+  function login() {
+    let username = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+
+    // Check if email contains '@' symbol
+    if (!username.includes('@')) {
+      alert("Please enter a valid email address with '@' symbol.");
+      return; // Prevents form submission
+    }
+
+    if (username && password) {
+      alert("Login successful!\nUsername: " + username);
+    } else {
+      alert("Please enter valid information.");
+    }
+  }
+  function register() {
+    let email = document.getElementById("emailUSER").value;
+    let password = document.getElementById("passwordUSER").value;
+    let confirmPassword = document.getElementById("confirmPassword").value;
+
+    // Check if email contains '@' symbol
+    if (!email.includes('@')) {
+      alert("Please enter a valid email address with '@' symbol.");
+      return; // Prevents form submission
+    }
+
+    if (email && password && confirmPassword) {
+      if (password === confirmPassword) {
+        alert("Registration successful!\nUsername: " + email);
+      } else {
+        alert("Passwords do not match.");
+      }
+    } else {
+      alert("Please fill out all fields.");
+    }
+  }
+  function sub() {
+    let emailSub = document.getElementById("Subscribe").value;
+
+    // Check if email contains '@' symbol
+    if (!emailSub.includes('@')) {
+      alert("Please enter a valid email address with '@' symbol.");
+      return; // Prevents form submission
+    }
+
+    alert("Subscribed successfully with: " + emailSub);
+  }
+</script>
+<script src="/javascript/java.js"></script>

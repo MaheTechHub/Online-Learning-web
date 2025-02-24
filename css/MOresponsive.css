@@ -1,0 +1,669 @@
+@media (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Featured Courses Section */
+    .featured-courses {
+        background: #f3f2f2;
+        padding: 3rem 0; /* Adjust padding */
+    }
+
+    .featured-courses h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 26px; /* Adjust font size */
+        color: #f26419;
+    }
+
+    .featured-courses p {
+        font-family: 'Ubuntu', sans-serif;
+        color: #333;
+        font-size: 15px; /* Adjust font size */
+    }
+
+    .featured-courses .container {
+        max-width: 1250px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .featured-courses .course-grid {
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align the cards */
+        cursor: pointer;
+    }
+
+    .course-grid {
+        text-align: center;
+        margin-top: 70px; /* Adjust margin */
+    }
+
+    .course {
+        padding: 1.5rem; /* Adjust padding */
+        width: 90%; /* Use 90% width to add some margin */
+        margin: 1rem 0; /* Margin around each card */
+        box-sizing: border-box;
+        background: #fff; /* Add a background color */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow for better visual separation */
+        border-radius: 8px; /* Rounded corners */
+    }
+
+    .course img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .course h3 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 19px; /* Adjust font size */
+        margin-top: 0.5rem; /* Adjust margin */
+    }
+
+    .course p.line {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px; /* Adjust font size */
+        margin-bottom: 0.5rem; /* Adjust margin */
+    }
+
+    .course button {
+        display: block;
+        margin: 0.5rem auto 0 auto; /* Adjust margin */
+        padding: 0.5rem 1rem; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .course button a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Featured Courses Section */
+    .featured-courses {
+        background: #f3f2f2;
+        padding: 2rem 0; /* Reduce padding */
+    }
+
+    .featured-courses h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px; /* Reduce font size */
+        color: #f26419;
+    }
+
+    .featured-courses p {
+        font-family: 'Ubuntu', sans-serif;
+        color: #333;
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .featured-courses .container {
+        max-width: 1250px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .featured-courses .course-grid {
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align the cards */
+        cursor: pointer;
+    }
+
+    .course-grid {
+        text-align: center;
+        margin-top: 50px; /* Reduce margin */
+    }
+
+    .course {
+        padding: 1rem; /* Reduce padding */
+        width: 90%; /* Use 90% width to add some margin */
+        margin: 1rem 0; /* Margin around each card */
+        box-sizing: border-box;
+        background: #fff; /* Add a background color */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add some shadow for better visual separation */
+        border-radius: 8px; /* Rounded corners */
+    }
+
+    .course img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .course h3 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px; /* Reduce font size */
+        margin-top: 0.5rem; /* Adjust margin */
+    }
+
+    .course p.line {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px; /* Reduce font size */
+        margin-bottom: 0.5rem; /* Adjust margin */
+    }
+
+    .course button {
+        display: block;
+        margin: 0.5rem auto 0 auto; /* Adjust margin */
+        padding: 0.5rem 1rem; /* Adjust padding */
+        font-size: 13px; /* Adjust font size */
+    }
+
+    .course button a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+  
+  /* Media Queries for Different Screen Sizes */
+  
+  /* For screens with a maximum width of 440px */
+  @media (max-width: 440px) {
+    .banner h1 {
+      font-size: 2rem; /* Adjust font size */
+    }
+  
+    .banner p {
+      font-size: 1rem; /* Adjust font size */
+    }
+    .banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      height: 100vh;
+    }
+    
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 13%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+  }
+  
+  /* For screens with a maximum width of 425px */
+  @media (max-width: 425px) {
+    .banner h1 {
+      font-size: 1.8rem; /* Adjust font size */
+    }
+  
+    .banner p {
+      font-size: 0.9rem; /* Adjust font size */
+      margin-bottom: 1.5rem; /* Adjust margin */
+    }
+    .banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      height: 100vh;
+    }
+    
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 13%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+  }
+  
+  /* For screens with a maximum width of 375px */
+  @media (max-width: 375px) {
+    .banner h1 {
+      font-size: 1.5rem; /* Adjust font size */
+      margin-bottom: 0.5rem; /* Adjust margin */
+    }
+  
+    .banner p {
+      font-size: 0.8rem; /* Adjust font size */
+      margin-bottom: 1rem; /* Adjust margin */
+    }
+    .banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      height: 100vh;
+    }
+    
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 13%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+  }
+ 
+  
+  /* Media Queries for Different Screen Sizes */
+  
+  /* For screens with a maximum width of 440px */
+  @media (max-width: 440px) {
+    .our {
+      padding: 3rem 0; /* Adjust padding */
+    }
+  
+    .imges img {
+      min-height: 80px; /* Adjust image size */
+      max-width: 80px; /* Adjust image size */
+    }
+  
+    .imges p {
+      font-size: 18px; /* Adjust font size */
+    }
+  
+    .imges h1 {
+      font-size: 26px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 425px */
+  @media (max-width: 425px) {
+    .our {
+      padding: 2.5rem 0; /* Adjust padding */
+    }
+  
+    .imges img {
+      min-height: 70px; /* Adjust image size */
+      max-width: 70px; /* Adjust image size */
+    }
+  
+    .imges p {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .imges h1 {
+      font-size: 24px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 375px */
+  @media (max-width: 375px) {
+    .our {
+      padding: 2rem 0; /* Adjust padding */
+    }
+  
+    .imges img {
+      min-height: 60px; /* Adjust image size */
+      max-width: 60px; /* Adjust image size */
+    }
+  
+    .imges p {
+      font-size: 14px; /* Adjust font size */
+    }
+  
+    .imges h1 {
+      font-size: 22px; /* Adjust font size */
+    }
+  }
+  
+  /* Media Queries for Different Screen Sizes */
+  
+  /* For screens with a maximum width of 440px */
+  @media (max-width: 440px) {
+    .benefits {
+      padding: 3rem 0; /* Adjust padding */
+    }
+  
+    .benefits h2 {
+      font-size: 28px; /* Adjust font size */
+    }
+  
+    .benefits .container {
+      column-gap: 20px; /* Adjust column gap */
+    }
+  
+    .benefits .container img {
+      height: 200px; /* Adjust image size */
+      width: 100%; /* Ensure image fits container width */
+    }
+  
+    .benefits .container p {
+      width: 80%; /* Ensure text fits container width */
+      font-size: 16px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 425px */
+  @media (max-width: 425px) {
+    .benefits {
+      padding: 2.5rem 0; /* Adjust padding */
+    }
+  
+    .benefits h2 {
+      font-size: 26px; /* Adjust font size */
+    }
+  
+    .benefits .container {
+      column-gap: 15px; /* Adjust column gap */
+    }
+  
+    .benefits .container img {
+      height: 180px; /* Adjust image size */
+      width: 100%; /* Ensure image fits container width */
+    }
+  
+    .benefits .container p {
+      width: 80%; /* Ensure text fits container width */
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 375px */
+  @media (max-width: 375px) {
+    .benefits {
+      padding: 2rem 0; /* Adjust padding */
+    }
+  
+    .benefits h2 {
+      font-size: 24px; /* Adjust font size */
+    }
+  
+    .benefits .container {
+      column-gap: 10px; /* Adjust column gap */
+    }
+  
+    .benefits .container img {
+      height: 160px; /* Adjust image size */
+      width: 100%; /* Ensure image fits container width */
+    }
+  
+   
+  }
+  /* Media Queries for Call to Action Section */
+  /* For screens with a maximum width of 440px */
+  @media (max-width: 440px) {
+    .cta {
+      padding: 3rem 0; /* Adjust padding */
+    }
+  
+    .cta .container {
+      padding: 0 1rem; /* Add padding to container */
+    }
+  }
+  
+  /* For screens with a maximum width of 425px */
+  @media (max-width: 425px) {
+    .cta {
+      padding: 2.5rem 0; /* Adjust padding */
+    }
+  
+    .cta .container {
+      padding: 0 0.5rem; /* Add padding to container */
+    }
+  }
+  
+  /* For screens with a maximum width of 375px */
+  @media (max-width: 375px) {
+    .cta {
+      padding: 2rem 0; /* Adjust padding */
+    }
+  
+    .cta .container {
+      padding: 0 0.5rem; /* Add padding to container */
+    }
+  }
+  
+  
+  /* Media Queries for Popular Section */
+  /* For screens with a maximum width of 440px */
+  @media (max-width: 440px) {
+    .popular h1 {
+      font-size: 32px; /* Adjust font size */
+    }
+  
+    .topics {
+      width: 45%; /* Adjust width for two columns */
+      height: auto; /* Adjust height */
+    }
+  
+    .topics-grid {
+      width: 100%; /* Ensure grid fits container width */
+      margin-left: 0; /* Remove margin */
+    }
+  
+    .topics img {
+      height: 40px; /* Adjust image size */
+      width: 40px; /* Adjust image size */
+    }
+  
+    .topics h4 {
+      font-size: 16px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 425px */
+  @media (max-width: 425px) {
+    .popular h1 {
+      font-size: 30px; /* Adjust font size */
+    }
+  
+    .topics {
+      width: 47%; /* Adjust width for two columns */
+      height: auto; /* Adjust height */
+    }
+  
+    .topics-grid {
+      width: 100%; /* Ensure grid fits container width */
+      margin-left: 0; /* Remove margin */
+    }
+  
+    .topics img {
+      height: 38px; /* Adjust image size */
+      width: 38px; /* Adjust image size */
+    }
+  
+    .topics h4 {
+      font-size: 15px; /* Adjust font size */
+    }
+  }
+  
+  /* For screens with a maximum width of 375px */
+  @media (max-width: 375px) {
+    .popular h1 {
+      font-size: 28px; /* Adjust font size */
+    }
+  
+    .topics {
+      width: 100%; /* Adjust width for single column */
+      height: auto; /* Adjust height */
+    }
+  
+    .topics-grid {
+      width: 100%; /* Ensure grid fits container width */
+      margin-left: 0; /* Remove margin */
+    }
+  
+    .topics img {
+      height: 35px; /* Adjust image size */
+      width: 35px; /* Adjust image size */
+    }
+  
+    .topics h4 {
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+  /* Media Queries for Responsive Design */
+  @media (max-width: 440px) {
+    figure.snip1157 {
+      min-width: 180px;
+      max-width: 270px;
+    }
+    
+    figure.snip1157 img {
+      height: 70px;
+      width: 70px;
+      margin: 30px 0 0 5px;
+      border: 7px solid #f26419;
+    }
+    
+    figure.snip1157 blockquote {
+      padding: 20px 30px 25px 30px;
+      font-size: 0.75em;
+    }
+    
+    figure.snip1157 blockquote:before,
+    figure.snip1157 blockquote:after {
+      font-size: 40px;
+    }
+    
+    figure.snip1157 .author {
+      padding: 0 10px 0 80px;
+      bottom: 35px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    figure.snip1157 {
+      min-width: 160px;
+      max-width: 250px;
+    }
+    
+    figure.snip1157 img {
+      height: 60px;
+      width: 60px;
+      margin: 20px 0 0 5px;
+      border: 5px solid #f26419;
+    }
+    
+    figure.snip1157 blockquote {
+      padding: 15px 20px 20px 20px;
+      font-size: 0.7em;
+    }
+    
+    figure.snip1157 blockquote:before,
+    figure.snip1157 blockquote:after {
+      font-size: 35px;
+    }
+    
+    figure.snip1157 .author {
+      padding: 0 10px 0 60px;
+      bottom: 25px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    figure.snip1157 {
+      min-width: 140px;
+      max-width: 230px;
+    }
+    
+    figure.snip1157 img {
+      height: 50px;
+      width: 50px;
+      margin: 10px 0 0 5px;
+      border: 3px solid #f26419;
+    }
+    
+    figure.snip1157 blockquote {
+      padding: 10px 15px 15px 15px;
+      font-size: 0.65em;
+    }
+    
+    figure.snip1157 blockquote:before,
+    figure.snip1157 blockquote:after {
+      font-size: 30px;
+    }
+    
+    figure.snip1157 .author {
+      padding: 0 10px 0 40px;
+      bottom: 15px;
+    }
+  }
+  /* Media Queries for Responsive Design */
+  @media (max-width: 440px) {
+    .introduction {
+      padding: 2rem 0;
+    }
+  
+    .introduction .container {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .introduction {
+      padding: 1.5rem 0;
+    }
+  
+    .introduction .container {
+      max-width: 85%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .introduction {
+      padding: 1rem 0;
+    }
+  
+    .introduction .container {
+      max-width: 80%;
+    }
+  }
+  /* Responsive Adjustments */
+@media (max-width: 440px) {
+    .courses h1 {
+        font-size: 30px;
+    }
+
+    .course-item {
+        width: calc(50% - 20px);
+    }
+
+    .course-item h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .courses h1 {
+        font-size: 28px;
+    }
+
+    .course-item {
+        width: calc(50% - 15px);
+    }
+
+    .course-item h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    .courses h1 {
+        font-size: 24px;
+    }
+
+    .course-item {
+        width: calc(100% - 20px);
+    }
+
+    .course-item h3 {
+        font-size: 16px;
+    }
+}

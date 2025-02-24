@@ -1,0 +1,709 @@
+@media (max-width: 768px) {
+/* hero section  */
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    height: 100vh;
+  }
+  
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+    /* Featured Courses Section */
+    .featured-courses {
+        background: #f3f2f2;
+        padding: 4rem 0;
+    }
+
+    .featured-courses h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+        color: #f26419;
+    }
+
+    .featured-courses p {
+        font-family: 'Ubuntu', sans-serif;
+        color: #333;
+    }
+
+    .featured-courses .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .featured-courses .course-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    .course-grid {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .course {
+        padding: 2rem;
+        /* Adjust padding to fit content within card */
+        height: auto;
+        /* Let height adjust based on content */
+        width: calc(100% - 2rem);
+        /* Full width with margin for spacing */
+        margin: 1rem;
+        /* Margin around each card */
+        flex-basis: calc(50% - 2rem);
+        /* Two cards per row */
+        box-sizing: border-box;
+        /* Include padding and border in element's total width and height */
+    }
+
+    .course img {
+        max-width: 100%;
+        /* Ensure image stays within card */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-top: 1rem;
+        /* Adjust margin as needed */
+    }
+
+    .course h3 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        /* Smaller font size for smaller screens */
+        width: 100%;
+        /* Full width within card */
+        margin-top: 1rem;
+        /* Adjust margin as needed */
+    }
+
+    .course p.line {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        margin-bottom: 1rem;
+        /* Adjust margin as needed */
+        width: 100%;
+        /* Full width within card */
+    }
+
+    .course button {
+        display: block;
+        margin: 1rem auto 0 auto;
+        /* Center the button and add margin */
+    }
+
+    .course button a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* our Section  */
+    .our {
+        padding: 4rem 0;
+    }
+
+    .our .container {
+        display: flex;
+        justify-content: center;
+        /* Center the items */
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .imges {
+        flex-basis: calc(50% - 1rem);
+        /* Two items per row */
+        margin: 0.5rem;
+        /* Add margin for spacing */
+        box-sizing: border-box;
+    }
+
+    .imges img {
+        min-height: 100px;
+        /* Adjust height as needed */
+        max-width: 100px;
+        /* Adjust width as needed */
+    }
+
+    .imges h1 {
+        text-align: center;
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .imges p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* Benefits Section */
+    .benefits h2 {
+        font-size: 35px;
+        margin-top: 1rem;
+        /* Adjust margin as needed */
+        text-align: center;
+    }
+
+    .benefits .container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: center;
+        /* Center align items */
+        gap: 1rem;
+        /* Add gap between elements */
+    }
+
+    .benefits .container img {
+        height: auto;
+        /* Maintain aspect ratio */
+        width: 100%;
+        /* Full width within container */
+        max-width: 400px;
+        /* Limit max width */
+    }
+    .benefits ul {
+        list-style: none;
+        padding: 0;
+        width: 80%;
+        /* Full width within container */
+        text-align: center;
+        /* Center text */
+    }
+
+    .benefits ul li {  
+        margin-bottom: 1rem;
+    }
+    .benefits .text{
+      width: 100%;
+      /* background-color: #f26419; */
+    }
+    .benefits .text #extra{
+      width: 100%;
+    }
+    .benefits .container p{
+      width: 500px;
+    }
+    /* popular  */
+
+    .topics-grid {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .topics:hover {
+        background-color: #f26419;
+        color: #ddd;
+    }
+
+    .topics {
+        background: #fff;
+        width: 30%;
+        height: 130px;
+        margin: 10px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+    }
+
+    .topics img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .topics h4 {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    /* popular end */
+    .course-videos {
+        padding: 4rem 0;
+    }
+
+    .course-videos h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .video-list {
+        display: flex;
+        flex-direction: column; /* Stack videos vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .video-item {
+        background: #fff;
+        padding: 1rem;
+        margin: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        width: 100%; /* Full width within container */
+        max-width: 500px; /* Limit max width */
+    }
+
+    .video-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    iframe {
+        width: 100%; /* Full width within container */
+        height: 250px; /* Maintain aspect ratio */
+    }
+    /* Courses Section */
+    .courses {
+        padding: 4rem 0;
+    }
+    .courses h1 {
+        padding: 3rem 0;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        color: #f26419;
+    }
+    .courses .container {
+        max-width: 100%; /* Full width on small screens */
+        margin: 0 auto;
+    }
+    .course-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .course-item {
+        background: #fff;
+        width: calc(100% - 0px); /* Two items per row */
+        margin: 10px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    .course-item img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+    .course-item:hover {
+        transform: scale(1.1);
+    }
+    .course-item h3 {
+        font-size: 18px;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flex p {
+        font-weight: 100;
+    }
+    .flex i {
+        font-size: 12px;
+        margin-right: 4px;
+    }
+     /* Course Ratings and Reviews */
+     .course-reviews {
+        background: #f4f4f4;
+        padding: 4rem 0;
+    }
+
+    .course-reviews h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .review-list {
+        display: flex;
+        flex-direction: column; /* Stack reviews vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .review-item {
+        background: #fff;
+        padding: 1rem;
+        margin: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        width: 100%; /* Full width within container */
+        max-width: 500px; /* Limit max width */
+        text-align: center;
+    }
+
+    .review-item img {
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .review-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .review-item p {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* FAQs */
+    .faqs {
+        padding: 2rem 0;
+        background: #f9f9f9;
+    }
+    .faqs .container {
+        max-width: 100%; /* Full width on small screens */
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 1rem; /* Add padding for better spacing */
+    }
+    .faqs h2 {
+        font-size: 1.5rem; /* Slightly smaller font size */
+        margin-bottom: 1rem;
+    }
+    .faq-item {
+        background: #fff;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        overflow: hidden;
+        width: 100%; /* Full width on small screens */
+    }
+    .faq-question {
+        background: #f1f1f1;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .faq-question h3 {
+        margin: 0;
+        font-size: 1rem; /* Slightly smaller font size */
+    }
+    .faq-question i {
+        transition: transform 0.3s;
+    }
+    .faq-answer {
+        display: none;
+        padding: 1rem;
+        border-top: 1px solid #ddd;
+        text-align: left; /* Ensure text is left-aligned */
+    }
+    .faq-item.open .faq-answer {
+        display: block;
+    }
+    .faq-item.open .faq-question i {
+        transform: rotate(180deg);
+    }
+}
+/* Responsive styling for screens with max width of 700px */
+@media (max-width: 768px) {
+    .course-container {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+  .course-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course-video {
+    flex: 1;
+    margin-right: 0;
+    width: 100%;
+  }
+  .course-sidebar {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .course-progress {
+    margin-bottom: 15px;
+  }
+
+  .course-progress button {
+    padding: 8px;
+    margin: 8px 0;
+  }
+
+  .course-enrollment p {
+    font-size: 12px;
+  }
+  
+.wrapper {
+    max-width: 1800px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    height: 100vh;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 768px) {
+    .search-filter {
+        padding: 2rem 0;
+        top: 120px;
+    }
+    .search-filter h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .search-filter h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .search-form {
+        margin-bottom: 0.1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-form input {
+        width: calc(70% - 1rem);
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    .search-form button {
+        margin-left: 0;
+    }
+    .filter-options {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-options label {
+        margin-left: 0;
+        font-size: 16px;
+        text-align: left;
+        width: 80%;
+        padding-left: 1rem;
+    }
+    .filter-options select {
+        width: calc(30% - 1rem);
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    figure.snip1157 {
+      margin: 5px;
+      min-width: 180px;
+      max-width: 250px;
+    }
+    figure.snip1157 img {
+      height: 70px;
+      width: 70px;
+      margin: 20px 0 0 5px;
+      border: 7px solid #f26419;
+    }
+    figure.snip1157 blockquote {
+      padding: 20px 30px 25px 30px;
+      font-size: 0.7em;
+    }
+    figure.snip1157 blockquote:before,
+    figure.snip1157 blockquote:after {
+      font-size: 40px;
+    }
+    figure.snip1157 .arrow {
+      border-right: 20px solid transparent;
+      border-top: 20px solid #fafafa;
+    }
+    figure.snip1157 .author {
+      padding: 0 5px 0 100px;
+      bottom: 35px;
+    }
+    figure.snip1157 .author h5 {
+      font-size: 0.9em;
+    }
+    .test {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  }
+  /* course page */
+  @media (max-width: 768px) {
+    .box-container{
+      height: 150px;
+    }
+    .course-details {
+        display: block;
+        margin-top: 20px;
+      }
+    .wrapper {
+        max-width: 600px;
+        width: 100%;
+        padding: 25px 30px 30px 30px;
+        height: 2000px;
+        margin-right: 100px;
+      }
+      
+      .wrapper header {
+        font-size: 30px;
+        font-weight: 400;
+        padding-bottom: 10px;
+      }
+      .wrapper nav {
+        position: relative;
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+      
+      nav label i {
+        padding-right: 7px;
+      }
+      
+      nav .slider {
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+        border-radius: 5px;
+        background: #f26419;
+        transition: all 0.3s ease;
+      }
+      
+      input[type="radio"] {
+        display: none;
+      }
+      
+      #blog:checked~nav .slider {
+        left: 50%;
+      }
+      
+      section .cont {
+        display: none;
+        /* background: #fff; */
+      }
+      
+      #home:checked~section .cont-1,
+      #blog:checked~section .cont-2 {
+        display: block;
+      }
+      
+      section .cont .title {
+        font-size: 21px;
+        font-weight: 500;
+        margin: 30px 0 10px 0;
+      }
+      
+      section .cont p {
+        text-align: justify;
+      }
+      .viwe {
+        height: 350px;
+        width: 330px;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .viwe-p1 {
+        line-height: 8px;
+      }
+      .additional-info {
+        /* flex: 1; */
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        width: 100%;
+        height: 600px;
+        
+      }
+      
+      .instructor,
+      .material-includes,
+      .requirements {
+        margin-bottom: 20px;
+      }
+      
+      .instructor h3,
+      .material-includes h3,
+      .requirements h3 {
+        margin-top: 0;
+      }
+      
+      .material-includes ul,
+      .requirements ul {
+        padding-left: 20px;
+      }
+      
+      .material-includes li,
+      .requirements li {
+        margin: 5px 0;
+      }
+      
+}
+/* contect us  */
+@media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 20px;
+    }
+    .container .content {
+      flex-direction: column-reverse;
+    }
+    .container .content .left-side {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 20px;
+      align-items: center;
+    }
+    .container .content .left-side::before {
+      display: none;
+    }
+    .container .content .right-side {
+      width: 100%;
+      margin-left: 0;
+    }
+    .right-side .input-box textarea {
+      height: 150%;
+    }
+  }
+  

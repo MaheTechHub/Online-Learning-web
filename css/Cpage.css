@@ -1,0 +1,21 @@
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+.progress{
+    height: 600px;
+    width: 25%;
+    border: 2px solid gray;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rate{
+    /* margin: 3rem; */
+    line-height: 40px;
+}

@@ -1,0 +1,25 @@
+
+.main-box {
+    height: 60vh;
+    background: url("/images/pexels-1\ -\ Copy.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ddd;
+}
+
+.main-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.main-box h1{
+    text-transform: uppercase;
+    font-size: 190px;
+    font-weight: 700;
+}

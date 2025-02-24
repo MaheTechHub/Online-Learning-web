@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/images/book.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction Data Science</title>
+    <link rel="stylesheet" href="/css/coursesPA.css">
+    <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- animated css  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* .cont cont-1{
+            /* height: 3000px; 
+        }   */
+        /* .faqs{
+            height: 800px;
+           } */
+    </style>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <section>
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="#">Edulearn</a></div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/aboutUS.html">About</a></li>
+                    <li><a href="/html/courses.html">courses</a></li>
+                    <li><a href="/html/instrctor.html">Instructor</a></li>
+                    <li><a href="/html/contectUS.html">Contact</a></li>
+                    <li><a href="#">login/register</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- main  -->
+    <div class="box-container">
+    </div>
+    <section>
+        <div class="course-container">
+            <div class="course-header">
+                <h1>Ultimate Data Science Mastery Course - Complete Course</h1>
+                <div class="course-categories">Categories: Data</div>
+                <div class="course-rating">⭐⭐⭐⭐ 4.5 ratings</div>
+            </div>
+            <div class="course-main">
+                <div class="course-video">
+
+                    <iframe width="900" height="490" src="https://www.youtube.com/embed/-ETQ97mXXF0?si=UxeVMi-t8K4pl0PA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                <div class="course-sidebar">
+                    <div class="course-progress">
+                        <h2>Course Progress</h2>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 4%;"></div>
+                        </div>
+                        <p>1 / 23 - 4% Complete</p>
+                        <button onclick="continueLearning()">Continue Learning</button>
+                        <button onclick="completeCourse()">Complete Course</button>
+                    </div>
+                    <div class="course-enrollment">
+                        <p>Enrolled on January 14, 2023</p>
+                        <p>Level: Expert</p>
+                        <p>2 Total Enrolled</p>
+                        <p>4 Hours Duration</p>
+                        <p>Last Updated: January 13, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course-details">
+                <div class="wrapper">
+                    <!-- <header>Pure CSS Tabs</header> -->
+                    <input type="radio" name="slider" checked id="home">
+                    <input type="radio" name="slider" id="blog">
+                    <nav>
+                        <label for="home" class="home">Courses About</label>
+                        <label for="blog" class="blog">Reviews</label>
+                        <div class="slider"></div>
+                    </nav>
+                    <section>
+                        <div class="cont cont-1">
+                            <div class="title">About</div>
+                            <h3>Key Concepts in Data Science:</h3>
+                            <p>Data Science is a multidisciplinary field that combines techniques from statistics,
+                                computer science, and domain knowledge to extract meaningful insights from data. Key
+                                concepts include:</p>
+                            <p>
+                                <li><strong>Data Exploration and Cleaning:</strong> Before analysis, data must be
+                                    explored and cleaned to ensure accuracy and completeness. This involves handling
+                                    missing values, outliers, and inconsistencies.</li>
+                                <li><strong>Statistical Analysis: </strong>Techniques such as regression, hypothesis
+                                    testing, and probability distributions help understand the underlying patterns in
+                                    data and make predictions.</li>
+                                <li>
+                                    <strong>Machine Learning:</strong> Machine learning algorithms, such as supervised
+                                    learning (e.g., classification and regression) and unsupervised learning (e.g.,
+                                    clustering), are used to build models that can make data-driven decisions.
+                                </li>
+                            </p>
+
+                            <h3>Types Of Courses:</h3>
+                            <p>
+                                <li><strong> Introduction to Data Science: </strong>Covers the fundamentals, including
+                                    data manipulation, basic statistics, and introductory machine learning. Ideal for
+                                    beginners.</li>
+                                <li><strong> Intermediate Data Science:</strong> Focuses on more advanced techniques,
+                                    such as feature engineering, model selection, and evaluation, along with practical
+                                    applications using Python or R.</li>
+                                <li><strong>Machine Learning and AI:</strong> In-depth courses on machine learning
+                                    algorithms, neural networks, and artificial intelligence techniques, including
+                                    hands-on projects and real-world applications.</li>
+                            </p>
+
+                            <h3>Benefits of Learning Data Science:</h3>
+                            <p>
+                                <li><strong> High Demand and Career Opportunities:</strong> Data Science professionals
+                                    are in high demand across various industries, including technology, finance,
+                                    healthcare, and marketing. The field offers lucrative job prospects and diverse
+                                    career paths.</li>
+                                <li><strong>Data-Driven Decision Making:</strong> Learning data science enables you to
+                                    analyze complex data sets, identify trends, and make informed decisions based on
+                                    evidence rather than intuition.</li>
+                                <li><strong>Problem Solving and Innovation: </strong>Data Science equips you with the
+                                    skills to tackle challenging problems, develop innovative solutions, and contribute
+                                    to advancements in technology and business strategies.</li>
+                            </p>
+
+                            <h3>Conclusion:</h3>
+                            <p>Data Science is a powerful and evolving field that plays a crucial role in leveraging
+                                data to drive decision-making and innovation. By understanding key concepts, exploring
+                                various course types, and recognizing the benefits, you can embark on a rewarding
+                                journey in data science. </p>
+
+
+                        </div>
+                        <div class="cont cont-2">
+                            <div class="title">Reviews</div>
+                            <div class="viwe">
+                                <div class="viwe-p1">
+                                    <h1>4.5</h1>
+                                    <p>⭐⭐⭐⭐⭐</p>
+                                    <p>total 2 ratings</p>
+                                </div>
+
+                                <div class="viwe-p2">
+                                    <p>⭐5 <progress value="40" max="100" id="progress"></progress> 1 Rating</p>
+                                    <p>⭐4 <progress value="40" max="100" id="progress"></progress> 1 Rating</p>
+                                    <p>⭐3 <progress value="0" max="100" id="progress"></progress> 0 Rating</p>
+                                    <p>⭐2 <progress value="0" max="100" id="progress"></progress> 0 Rating</p>
+                                    <p>⭐1 <progress value="0" max="100" id="progress"></progress> 0 Rating</p>
+                                </div>
+                            </div>
+                            <div class="viwe">
+                                <div class="">
+                                    <p>4 years ago</p>
+                                </div>
+                                <div class="">
+                                    <p>⭐⭐⭐⭐⭐</p>
+                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <strong>Lorem ipsum dolor sit.</strong>
+                                </div>
+                            </div>
+                            <div class="viwe">
+                                <div class="">
+                                    <p>4 years ago</p>
+                                </div>
+                                <div class="">
+                                    <p>⭐⭐⭐⭐⭐</p>
+                                    <h3>Lorem ipsum dolor sit</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <strong>Lorem ipsum dolor sit.</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- courses by section  -->
+
+                <div class="additional-info">
+                    <div class="instructor">
+                        <h3>A course by</h3>
+                        <div class="fl">
+                            <div class="cir"><img src="/images/book (2).png" alt="" height="30px" width="30px"></div>
+                            <span>Edulearn</span>
+                        </div>
+
+                    </div>
+                    <div class="material-includes">
+                        <h3>Material Includes</h3>
+                        <ul>
+                            <li>Video Tutorials</li>
+                            <li>Quizzes and Assignments</li>
+                            <li>Project Files</li>
+                            <li>Certificate of Completion</li>
+                            <li>Community Access</li>
+                            <li>Regular Updates</li>
+                        </ul>
+                    </div>
+                    <div class="requirements">
+                        <h3>Requirements</h3>
+                        <ul>
+                            <li>Basic Computer Skills</li>
+                            <li>Design Software</li>
+                            <li>Internet Connection</li>
+                            <li>Creativity and Passion</li>
+                            <li>Time Commitment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs Section -->
+    <section class="faqs">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is Data Science?</h3>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Data Science involves using statistical methods, algorithms, and machine learning techniques to
+                        analyze and interpret complex data, providing valuable insights for decision-making.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do I need a background in mathematics to start learning Data Science?</h3>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        While a basic understanding of mathematics, particularly statistics and algebra, is helpful,
+                        many courses are designed for beginners and cover the necessary mathematical concepts.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3> What tools and languages are commonly used in Data Science? </h3>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Common tools and languages include Python, R, SQL, and platforms like Jupyter Notebooks.
+                        Additionally, tools for data visualization and big data processing, such as Tableau and Spark,
+                        are often used.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does it take to learn Data Science?</h3>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        The time required depends on the course and your prior knowledge. Generally, foundational
+                        courses can take a few weeks to a few months, while advanced programs or specializations may
+                        take longer.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What career opportunities are available in Data Science?</h3>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Data Science offers various career paths, including Data Analyst, Data Scientist, Machine
+                        Learning Engineer, and Business Intelligence Analyst, with opportunities in numerous industries
+                        such as technology, finance, and healthcare.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section  -->
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">Edulearn</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/register.html">Contact us</a></li>
+                    <li><a href="/html/aboutUS.html">About us</a></li>
+                    <li><a href="/html/courses.html">courses</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Category</li>
+                    <li><a href="/html/busniess.html">Busniess & management</a></li>
+                    <li><a href="/html/dataScience.html">Data Science</a></li>
+                    <li><a href="/html/digitalM.html">Digital Marketing</a></li>
+                    <li><a href="/html/webD.html">Web Development</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+                <!-- <ul class="box">
+      <li class="link_name">Courses</li>
+      <li><a href="#">HTML & CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="/html/graphic design main.html">introduction graphic design</a></li>
+      <li><a href="/html/business main.html">introduction Busniess & management</a></li>
+    </ul> -->
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email" id="Subscribe"></li>
+                    <li><input type="button" value="Subscribe" onclick="sub()"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright &#169; 2024 <a href="#">Edulearn.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function continueLearning() {
+        alert('Continuing Learning...');
+        // Add your logic to continue learning
+    }
+
+    function completeCourse() {
+        alert('Course Completed!');
+        // Add your logic to mark the course as complete
+    }
+
+</script>
+<script src="/javascript/java.js"></script>
+
+</html>
